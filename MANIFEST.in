@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aggregate_production *.css
+recursive-include aggregate_production *.csv
+recursive-include aggregate_production *.html
+recursive-include aggregate_production *.ico
+recursive-include aggregate_production *.js
+recursive-include aggregate_production *.json
+recursive-include aggregate_production *.md
+recursive-include aggregate_production *.png
+recursive-include aggregate_production *.py
+recursive-include aggregate_production *.svg
+recursive-include aggregate_production *.txt
+recursive-exclude aggregate_production *.pyc
